@@ -1,0 +1,52 @@
+
+<html>
+<head>
+  <title>P,R,S - Client</title>
+  <link rel="stylesheet" href="styles/style.css">
+ </head>
+
+<body>
+
+    <h1 id="header">Play Rock Paper Scissors!</h1>
+    <a href ="/"><img id="handimg" src="images/hand.jpg"> </a>
+    <a href = "/rules"><button id = "show_rules_button" class="btn">View Rules</button></a>
+    <a href = "/stats"><button id = "show_stats_button" class="btn">View Stats</button></a>
+    <button id = "enter_name_button" class"btn">Enter Name</button>
+
+<h3 id= "clientgreeting">&nbsp</h3>
+<div id="feedback" class="hidden" class="good">
+  <p>Name Successfully Saved</p>
+</div>
+
+
+<div id="enter_name" class="hidden">
+  <p>Enter a name to proceed</p>
+  <input type="text" value="" id="name_input" style="width: 150px;" />
+  <button id = "confirm_name">Confirm</button>
+</div>
+<div id="throw_choice" class="hidden">
+  <h2>Play the Game</h2>
+  <select id="throw">
+    <option value=""></option>
+    <option value="0">Rock</option>
+    <option value="1">Paper</option>
+    <option value="2">Scissors</option>
+  </select>
+  <button id = "confirm_choice" >Confirm</button>
+</div>
+  <button id = "play_again_button">Reset Game</button>
+<div id="game">
+      <div class="column">
+    <img src="images/gokuchargeup.gif" id="Hand" height="400" width="400">
+      </div>
+    <div class="column">
+    <img src="images/bowserroar.gif" id="Bowser" height="400" width="400">
+      </div>
+</div>
+<div id="game_results">ARRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR</div>
+  <footer>
+    Brawner Quan, November 8, 2018
+  </footer>
+  <script src="scripts/scripts.js"></script>
+ </body>
+</html>

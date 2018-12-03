@@ -1,0 +1,144 @@
+
+
+h1 {
+  color: #ff0000;
+  background-color: #cccccc;
+  text-align: center;
+}
+
+div {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 50px;
+  margin-left: 50px;
+  background-color: #ffffff;
+  background-color: #dddddd;
+
+}
+
+
+.btn{
+    border: none;
+    background-color: inherit;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: block;
+}
+#rules{
+    border-radius: 25px;
+    background-color: FFEEB3;
+    padding-left: 20px;
+}
+#stats{
+  border-radius: 25px;
+  background-color: FFEEB3;
+  padding-left: 20px;
+}
+#game_results{
+  margin: auto;
+  width: 200 px;
+  padding-left: 100px;
+  background-color: 9F3C57;
+}
+
+.hidden{
+  display: none;
+}
+
+.visible{
+  display:block;
+}
+ #html{
+
+    max-width: 500px;
+    margin: auto;
+
+ }
+
+body {
+ background-color: B07742;
+
+}
+
+#header{
+  color:  55041A;
+  background-color: D9C275;
+  margin: auto;
+  border-radius: 25px;
+  padding: 20px;
+  width: 500px;
+  height: 35px;
+}
+#enter_name_button{
+background-color: FFEEB3;
+width: 200px;
+height: 35px;
+outline-style: solid;
+outline-color: black;
+}
+#show_rules_button{
+background-color: FFEEB3;
+width: 200px;
+height: 35px;
+outline-style: solid;
+outline-color: black;
+}
+#show_stats_button{
+background-color: FFEEB3;
+width: 200px;
+height: 35px;
+outline-style: solid;
+outline-color: black;
+}
+button {
+  background-color: D9C275;
+}
+
+#game{
+  background-color: 9F3C57;
+}
+#hand{
+    float: left;
+    width: 40%;
+    padding-left: : 100px;
+}
+#Bowser{
+    float: right;
+    width: 40%;
+    padding-right: : 100px;
+}
+
+/* Clearfix (clear floats) */
+#game::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#enter_name{
+  color: red;
+  border-radius: 25px;
+  padding: 20px;
+  width: 300px;
+  background-color: FFEEB3;
+}
+
+#throw_choice{
+
+  border-radius: 25px;
+  padding: 20px;
+  width: 300px;
+  background-color: FFEEB3;
+}
+
+#handimg{
+  length: 100px;
+  width: 100px;
+}
+.good{
+  color: green;
+}
+.bad{
+  color: red;
+}
